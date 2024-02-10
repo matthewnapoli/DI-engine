@@ -17,7 +17,7 @@ stocks_dqn_config = dict(
         # the path to save result image.
         save_path='./fig/',
         # the raw data file name
-        stocks_data_filename='STOCKS_GOOGL',
+        stocks_data_filename='input',
         # the stocks range percentage used by train/test.
         # if one of them is None, train & test set will use all data by default.
         train_range=None,
